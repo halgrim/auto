@@ -8,5 +8,11 @@ This way also assures compatibility between selenium java bindings and selenium 
 ```sh
 $ docker run -d --network host --name selenium-all-in-one selenium/standalone-chrome-debug:3.14.0-dubnium
 ```
+Requirements
+
+  - Java 1.8
+  - MVN (tested on 3.5.2)
+  - docker (tested on 18.06.1-ce)
+  - localhost port 4444 available
 
 Happy testing!
